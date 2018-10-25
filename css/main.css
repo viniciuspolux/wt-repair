@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after  {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+header {
+  background: #2eac82;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: left;
+  background: #55d6aa;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  position: relative;
+}
+
+.menu #menu-projetos{
+  float: right;
+  margin-right: 40%;
+  display:flex;
+  /* justify-content: space-around; */
+}
+
+.menu a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.menu a:hover {
+  color: #000;
+}
+
+
+#addsinal{
+  width: 250px;
+  height: 250px;
+  margin-left: 20%;
+  margin-top: 10%;
+  /* margin-bottom: 15%; */
+  margin-right: 10%;
+}
+
+#addproject{
+  width: 250px;
+  height: 250px;
+  margin-left: 10%;
+  margin-top: 10%;
+  /* margin-bottom: 15%; */
+  margin-right: 20%;
+}
+
+#addcontainer{
+  display: flex;
+  display: inline;
+}
+
+#nebula-logo{
+  margin-left: 15px;
+  width: 8%;
+  height: 8%;
+  float: left;
+  padding: 10px 0;
+}
+
+#addcontainer img:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#menu{
+  float: left;
+}
+
+nav img:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.user-container{
+  float: right;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2%;
+  
+}
+
+#user-name{
+  font-size: 14px;
+  /* justify-content: flex-start; */
+  flex-direction: column;
+  
+}
+
+#user-func{
+  font-size: 12px;
+  justify-content: flex-end;
+  margin-left: 25%;
+
+
+}
+
+#user-img{
+
+  width: 45px;
+  height: 45px;
+  margin-right: 30%;
+  float: right;
+  margin-top: 1%;
+    
+}
